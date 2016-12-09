@@ -1,0 +1,26 @@
+﻿@{
+    string model = ViewData.Model as string;
+    var Logos = Directory.GetFiles(Server.MapPath("") + "/images/trademark");
+}
+<div class="container">
+    <h2>Наша компания применяет оборудование<br /> только проверенных производителей, таких как: </h2>
+
+    <div class="slider multiple-items multiple-items-hor" align="center" style="width: 90%; left: 50%; margin-left: -45%; margin-top: 120px; margin-bottom: 0px !important;">
+        @for (var i = 0; i < Logos.Length; i += 2)
+        { 
+            <text>
+                <div>
+                    @{
+                        string filename = Path.GetFileName(Logos[i]);
+                    }
+                    <img src="images/trademark/@filename" alt="" /><br />
+                    @if (i < Logos.Length - 1)
+                    {
+                        filename = Path.GetFileName(Logos[i + 1]);
+                        <img src="images/trademark/@filename" alt="" />
+                    }
+                </div>
+            </text>
+        }
+    </div>
+</div>

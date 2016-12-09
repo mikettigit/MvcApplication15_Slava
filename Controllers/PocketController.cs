@@ -141,6 +141,21 @@ namespace MvcApplication10.Controllers
                     return RedirectToAction("Index", "Home");
                 }
                 string content = Pocket.GetContent(Request.Url, false);
+
+                //Слава
+                //Controls->
+                string RelativeControlsPath = "/Views/Shared/Controls/";
+                string ControlsPath = Server.MapPath("") + RelativeControlsPath;
+                var Controls = Directory.GetFiles(ControlsPath);
+                foreach (var Control in Controls)
+                {
+                    string ControlName = Path.GetFileName(Control);
+                    string template = RenderRazorViewToString("~" + RelativeControlsPath + ControlName, "");
+                    content = content.Replace("@" + ControlName, template);
+                }
+                //<-Controls
+                //Слава
+                
                 return Content(content);
             }
             else if (ContentType == "application/javascript" || ContentType == "text/css")
@@ -168,6 +183,21 @@ namespace MvcApplication10.Controllers
                     Stream = Pocket.GetSourceFileStream(Request.Url);
                 }
                 return new FileStreamResult(Stream, ContentType);
+            }
+        }
+
+        public string RenderRazorViewToString(string viewName, object model)
+        {
+            ViewData.Model = model;
+            using (var sw = new StringWriter())
+            {
+                var viewResult = ViewEngines.Engines.FindPartialView(ControllerContext,
+                                                                         viewName);
+                var viewContext = new ViewContext(ControllerContext, viewResult.View,
+                                             ViewData, TempData, sw);
+                viewResult.View.Render(viewContext, sw);
+                viewResult.ViewEngine.ReleaseView(ControllerContext, viewResult.View);
+                return sw.GetStringBuilder().ToString();
             }
         }
 
