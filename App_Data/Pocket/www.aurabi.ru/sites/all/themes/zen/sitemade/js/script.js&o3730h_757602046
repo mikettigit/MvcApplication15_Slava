@@ -1,0 +1,255 @@
+(function ($){
+
+
+
+	Drupal.behaviors.webform_ajax = {
+  attach: function (context, settings) {
+      jQuery('.ajax-processed', context).once('webform_ajax', function () {
+        $("#webform-component-telefon .form-text").mask("+7(999)999-99-99");
+        $.colorbox.resize();
+        
+      });
+    }
+  };
+
+	$(document).ready(function(){
+
+
+  
+  $("#webform-component-phone .form-text").mask("+7(999)999-99-99");
+  $("#webform-component---mobile .form-text").mask("+7(999)999-99-99");
+  
+    $('.webform-confirmation .btn').live('click', function(){
+      $.colorbox.close();
+    });
+
+    
+    $(document).bind('cbox_complete', function(){ 
+      $('object').hide();
+    });  
+    
+    $(document).bind('cbox_closed', function(){ 
+      $('body').css({overflow: 'auto'});
+      $('object').show();
+    });
+    
+
+    $('.view-our-works.view-display-id-block .view-content').CloudCarousel(
+      {
+        yRadius:40,
+        xPos: 425,
+        yPos: 120,
+        reflHeight: 56,
+        reflGap:2,
+		autoRotate: 'no',
+        buttonLeft: $("#left-but"),
+        buttonRight: $("#right-but"),
+        altBox: $("#alt-text"),
+        titleBox: $("#title-text"),
+        speed:0.15
+       // autoRotate: 'left',
+       // autoRotateDelay: 5000
+      }
+    );
+  
+    $('.view-video-set .open-description').click(function(){
+      $(this).siblings('.information').toggle(400);
+    });
+  
+
+/* fix colapse table bug NEW */
+
+    $('.field-item .open-link').click(function(){
+      $(this).siblings('.stuff-collapse').toggle(400);
+    });
+
+	
+		$('.view-mode-full .our-work-image').prependTo($('.node.view-mode-full > .content'));
+			
+		$('.node-video-set.view-mode-full .views-slideshow-pager-field-item').click(function(){
+      $('.node-video-set.view-mode-full .views-slideshow-pager-field-item').removeClass('active');
+      $(this).addClass('active');
+    });
+		
+		$('#header .logo img').mouseenter(function(){
+			$(this).attr('src', '/sites/all/themes/zen/sitemade/images/logo_ins.jpg');
+		});
+		
+		$('#header .logo img').mouseleave(function(){
+			$(this).attr('src', '/sites/all/themes/zen/sitemade/images/logo.jpg');
+		});
+		
+		$('#footer .footer-logo img').mouseenter(function(){
+			$(this).attr('src', '/sites/all/themes/zen/sitemade/images/footer-logo_ins.jpg');
+		});
+		
+		$('#footer .footer-logo img').mouseleave(function(){
+			$(this).attr('src', '/sites/all/themes/zen/sitemade/images/footer-logo.jpg');
+		});
+	
+		$('#nice-menu-1 li ul').remove();
+		$('#search-block-form .form-text').val('поиск по сайту');
+
+		$('#search-block-form .form-text').blur(function(){
+				if(this.value==''){
+					this.value='поиск по сайту'
+				}
+			});
+			
+		$('#search-block-form .form-text').focus(function(){
+			if(this.value=='поиск по сайту'){
+				this.value='';
+				}
+			});
+			
+
+
+			
+		
+		/*
+			$('.index-image-1').mouseenter(function(){
+				$(this).css('background', 'url("/sites/all/themes/zen/sitemade/images/index-image-1.jpg") 81px top no-repeat'); 
+			});
+			
+			$('.index-image-1').mouseleave(function(){
+				$(this).css('background', 'none');
+			});
+			
+			$('.index-image-2').mouseenter(function(){
+				$(this).css('background', 'url("/sites/all/themes/zen/sitemade/images/index-image-2.jpg") left top no-repeat');
+			});
+			
+			$('.index-image-2').mouseleave(function(){
+				$(this).css('background', 'none');
+			});			
+			
+			$('.index-image-3').mouseenter(function(){
+				$(this).css('background', 'url("/sites/all/themes/zen/sitemade/images/index-image-3.jpg") left top no-repeat');
+			});
+			
+			$('.index-image-3').mouseleave(function(){
+				$(this).css('background', 'none');
+			});		
+			
+			$('.index-image-4').mouseenter(function(){
+				$(this).css('background', 'url("/sites/all/themes/zen/sitemade/images/index-image-4.jpg") left top no-repeat');
+			});
+			
+			$('.index-image-4').mouseleave(function(){
+				$(this).css('background', 'none');
+			});	
+			
+			$('.index-image-5').mouseenter(function(){
+				$(this).css('background', 'url("/sites/all/themes/zen/sitemade/images/index-image-5.jpg") left top no-repeat');
+			});
+			
+			$('.index-image-5').mouseleave(function(){
+				$(this).css('background', 'none');
+			});		
+			
+			$('.index-image-6').mouseenter(function(){
+				$(this).css('background', 'url("/sites/all/themes/zen/sitemade/images/index-image-6.jpg") left top no-repeat');
+			});
+			
+			$('.index-image-6').mouseleave(function(){
+				$(this).css('background', 'none');
+			});		
+			
+      */
+		
+		if(!$('.search-results').length){
+			$('#node-35 .node-title').remove();
+			
+			$("h3").addClass("collapsed");
+				$('h3.collapsed').parent().parent().addClass('parent-collapsed');
+				$('h3.collapsed').parent().find('p').hide('');
+				$('h3.collapsed').parent().find('ul').hide('');
+				$('h3.collapsed').parent().find('h4').hide('');
+				/* $('h3.collapsed').parent().find('table').hide(''); */
+			
+			$('h3.expanded').live('click' , function(){
+				$(this).removeClass("expanded").addClass("collapsed");
+				$(this).parent().parent().removeClass('parent-expanded');
+				$(this).parent().parent().addClass("parent-collapsed");
+				$(this).parent().find('p').hide('200');
+				$(this).parent().find('ul').hide('200');
+				$(this).parent().find('h4').hide('200');
+				/* $(this).parent().find('table').hide('200'); */
+			});		
+			
+			$('h3.collapsed').live('click' , function(){
+				$(this).removeClass("collapsed").addClass("expanded");
+				$(this).parent().parent().removeClass('parent-collapsed');
+				$(this).parent().parent().addClass("parent-expanded");				
+				$(this).parent().find('p').show('200');
+				$(this).parent().find('ul').show('200');
+				$(this).parent().find('h4').show('200');
+				/* $(this).parent().find('table').show('200'); */
+			});
+
+		}
+		
+
+		$('#search-form  .form-submit').val('Начать поиск');
+    
+    $('#colorbox .messages').live('click', function(){
+      $(this).fadeOut();
+    });
+    
+
+    $('.page-node-231 .field-name-field-text1').insertAfter('#block-views-security-solutions-block-2');
+    
+    $('.page-node-232 .field-name-field-text1').insertAfter('#block-views-security-solutions-block-3');
+    
+    $('.page-node-229 .field-name-field-text1').insertAfter('#block-views-security-solutions-block');
+    
+    $('.page-node-229 .field-name-field-text2').insertAfter('#block-views-security-solutions-block');
+
+$(window).scroll(function(){
+ var down = $(window).height() + 130;
+	 if ($(this).scrollTop() > $(document).height() - down) {
+            $('.back-to-top').addClass( "selectedition" );
+        } else {
+            $('.back-to-top').removeClass( "selectedition" );
+        } 
+});
+$(window).scroll(function(){
+ var down = $(window).height() + 130;
+	 if ($(this).scrollTop() > $(document).height() - down) {
+            $('.back-zakaz').addClass( "selectedition" );
+        } else {
+            $('.back-zakaz').removeClass( "selectedition" );
+        } 
+});
+
+
+$('#node-215  .form-item.webform-component.webform-component-textarea textarea').val('Оставьте дополнительную информацию');
+$('#node-215  .form-item.webform-component.webform-component-textarea textarea').blur(function(){
+     if(this.value==''){
+       this.value='Оставьте дополнительную информацию';
+     }
+  });   
+  $('#node-215  .form-item.webform-component.webform-component-textarea textarea').focus(function(){
+    if(this.value=='Оставьте дополнительную информацию'){
+      this.value='';
+    }
+  });
+$('#node-216  .form-item.webform-component.webform-component-textarea textarea').val('Оставьте дополнительную информацию');
+$('#node-216  .form-item.webform-component.webform-component-textarea textarea').blur(function(){
+     if(this.value==''){
+       this.value='Оставьте дополнительную информацию';
+     }
+  });   
+  $('#node-216  .form-item.webform-component.webform-component-textarea textarea').focus(function(){
+    if(this.value=='Оставьте дополнительную информацию'){
+      this.value='';
+    }
+  });
+
+
+  
+  
+  
+	});	//end of ready()     
+	
+})(jQuery);
