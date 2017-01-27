@@ -127,7 +127,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                             </div>
                                             <div class="views-field views-field-field-photo">
                                                 <div class="field-content">
-                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/price_ill.jpg" width="389" height="316" alt="" />
+                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/au_1.jpg" width="389" height="316" alt="" />
                                                 </div>
                                             </div>
                                             <div class="views-field views-field-field-text">
@@ -142,10 +142,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                                         <li><span style="color:#ee810d;">Монтаж, установка и настройка удаленного доступа (на компьютере, ноутбуке, планшете, смартфоне), обучение Заказчика.</span></li>
                                                     </ul>
                                                     <p>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">
                                                             <img alt="Пример видеозаписи" src="/sites/default/files/video_record_ico.jpg" style="margin-top: -10px; float: left; width: 40px; height: 34px;" title="Пример видеозаписи" />
                                                         </a>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
                                                     </p>
                                                     <p><em>Примечание: просмотр осуществляется через сеть Ethernet, монитор в комплект не входит, можно приобрести отдельно: Монитор 19' дюймом с HD разрешением - 5200 руб.</em></p>
                                                 </div>
@@ -170,7 +170,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                             </div>
                                             <div class="views-field views-field-field-photo">
                                                 <div class="field-content">
-                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/price_ill.jpg" width="389" height="316" alt="" />
+                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/au_2.jpg" width="389" height="316" alt="" />
                                                 </div>
                                             </div>
                                             <div class="views-field views-field-field-text">
@@ -213,7 +213,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                             </div>
                                             <div class="views-field views-field-field-photo">
                                                 <div class="field-content">
-                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/price_ill.jpg" width="389" height="316" alt="" />
+                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/au_3.jpg" width="389" height="316" alt="" />
                                                 </div>
                                             </div>
                                             <div class="views-field views-field-field-text">
@@ -227,10 +227,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                                         <li><span style="color:#ee810d;">Монтаж, установка и настройка удаленного доступа (на компьютере, ноутбуке, планшете, смартфоне), обучение Заказчика.</span></li>
                                                     </ul>
                                                     <p>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">
                                                             <img alt="Пример видеозаписи" src="/sites/default/files/video_record_ico.jpg" style="margin-top: -10px; float: left; width: 40px; height: 34px;" title="Пример видеозаписи" />
                                                         </a>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
                                                     </p>
                                                     <p><em>Примечание: просмотр осуществляется через сеть Ethernet, монитор в комплект не входит, можно приобрести отдельно: Монитор 19' дюймом с HD разрешением - 5200 руб.</em></p>
                                                 </div>
@@ -257,7 +257,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                             </div>
                                             <div class="views-field views-field-field-photo">
                                                 <div class="field-content">
-                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/price_ill.jpg" width="389" height="316" alt="" />
+                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/au_4.jpg" width="389" height="316" alt="" />
                                                 </div>
                                             </div>
                                             <div class="views-field views-field-field-text">
@@ -272,10 +272,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                                         <li><span style="color:#ee810d;">Монтаж, установка и настройка удаленного доступа (на компьютере, ноутбуке, планшете, смартфоне), обучение Заказчика.</span></li>
                                                     </ul>
                                                     <p>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">
                                                             <img alt="Пример видеозаписи" src="/sites/default/files/video_record_ico.jpg" style="margin-top: -10px; float: left; width: 40px; height: 34px;" title="Пример видеозаписи" />
                                                         </a>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
                                                     </p>
                                                     <p><em>Примечание: просмотр осуществляется через сеть Ethernet, монитор в комплект не входит, можно приобрести отдельно: Монитор 19' дюймом с HD разрешением - 5200 руб.</em></p>
                                                 </div>
@@ -302,7 +302,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                             </div>
                                             <div class="views-field views-field-field-photo">
                                                 <div class="field-content">
-                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/price_ill.jpg" width="389" height="316" alt="" />
+                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/au_5.jpg" width="389" height="316" alt="" />
                                                 </div>
                                             </div>
                                             <div class="views-field views-field-field-text">
@@ -316,10 +316,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                                         <li><span style="color:#ee810d;">Монтаж, установка и настройка удаленного доступа (на компьютере, ноутбуке, планшете, смартфоне), обучение Заказчика.</span></li>
                                                     </ul>
                                                     <p>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">
                                                             <img alt="Пример видеозаписи" src="/sites/default/files/video_record_ico.jpg" style="margin-top: -10px; float: left; width: 40px; height: 34px;" title="Пример видеозаписи" />
                                                         </a>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
                                                     </p>
                                                     <p><em>Примечание: просмотр осуществляется через сеть Ethernet, монитор в комплект не входит, можно приобрести отдельно: Монитор 19' дюймом с HD разрешением - 5200 руб.</em></p>
                                                 </div>
@@ -346,7 +346,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                             </div>
                                             <div class="views-field views-field-field-photo">
                                                 <div class="field-content">
-                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/price_ill.jpg" width="389" height="316" alt="" />
+                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/au_6.jpg" width="389" height="316" alt="" />
                                                 </div>
                                             </div>
                                             <div class="views-field views-field-field-text">
@@ -361,10 +361,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                                         <li><span style="color:#ee810d;">Монтаж, установка и настройка удаленного доступа (на компьютере, ноутбуке, планшете, смартфоне), обучение Заказчика.</span></li>
                                                     </ul>
                                                     <p>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">
                                                             <img alt="Пример видеозаписи" src="/sites/default/files/video_record_ico.jpg" style="margin-top: -10px; float: left; width: 40px; height: 34px;" title="Пример видеозаписи" />
                                                         </a>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
                                                     </p>
                                                     <p><em>Примечание: просмотр осуществляется через сеть Ethernet, монитор в комплект не входит, можно приобрести отдельно: Монитор 19' дюймом с HD разрешением - 5200 руб.</em></p>
                                                 </div>
@@ -391,7 +391,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                             </div>
                                             <div class="views-field views-field-field-photo">
                                                 <div class="field-content">
-                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/price_ill.jpg" width="389" height="316" alt="" />
+                                                    <img typeof="foaf:Image" src="http://www.avksb.su/images/au_7.jpg" width="389" height="316" alt="" />
                                                 </div>
                                             </div>
                                             <div class="views-field views-field-field-text">
@@ -405,10 +405,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageS
                                                         <li><span style="color:#ee810d;">Монтаж, установка и настройка удаленного доступа (на компьютере, ноутбуке, планшете, смартфоне), обучение Заказчика.</span></li>
                                                     </ul>
                                                     <p>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">
                                                             <img alt="Пример видеозаписи" src="/sites/default/files/video_record_ico.jpg" style="margin-top: -10px; float: left; width: 40px; height: 34px;" title="Пример видеозаписи" />
                                                         </a>
-                                                        <a href="https://vk.com/video-35540941_456239017" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
+                                                        <a href="https://www.youtube.com/watch?v=7WKgk62SI3A" target="_blank" title="">Пример записи c AHD камеры 1MPix,</a> 1280х720 pix
                                                     </p>
                                                     <p><em>Примечание: просмотр осуществляется через сеть Ethernet, монитор в комплект не входит, можно приобрести отдельно: Монитор 19' дюймом с HD разрешением - 5200 руб.</em></p>
                                                 </div>
